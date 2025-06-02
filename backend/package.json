@@ -1,0 +1,25 @@
+{
+  "name": "quiz-biologia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsallesm/TrabalhoBio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devsallesm/TrabalhoBio/issues"
+  },
+  "homepage": "https://github.com/devsallesm/TrabalhoBio#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security"
+  }
+}
