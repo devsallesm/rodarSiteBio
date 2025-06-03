@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -48,7 +49,7 @@
     color: rgb(0, 150, 12);
     font-family: "Roboto Condensed", sans-serif;
     margin: 7%;
-
+    text-align: center;
 }
 
 .textContent {
@@ -77,50 +78,58 @@
 }
 
 .cards {
-    background-color: rgb(0, 150, 12);
-    color: white;
-    width: 120px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    box-shadow: 0px 5px 26px black;
-    text-align: center;
-    padding: 4rem;
-    position: relative;
-    overflow: hidden;
- transition: transform 0.3s ease;
-}
-
-.cards:hover {
-    transform: scale(1.05);
+  width: 200px;
+  height: 250px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  border-radius: 15px;
+  box-shadow: 0px 5px 26px;
+  background-color: rgb(0, 150, 12);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 
 }
 
 .cardsTitles {
-    color: aliceblue;    
-    font-size: 12px;
-    font-family: "Roboto Condensed", sans-serif;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  justify-content: center;
+  transition: margin 0.5s ease;
+  margin: 0;
 }
 
 .cardDescription {
-  font-family: Arial, sans-serif;
+  color: aliceblue;
   font-size: 14px;
-  margin-top: 1rem;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
   opacity: 0;
-  transition: opacity 0.3s;
-}
-.card:hover .cardDescription {
-  opacity: 1;
-}
-
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.5s ease, max-height 0.5s ease;
+  padding-top: 0;
+}   
 .cardsContent {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3rem;
-    justify-content: center;
-    margin-top: 2rem;
-    margin: 7%;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  padding: 2rem;
+  gap: 1.5rem; 
+  margin: 5%;
+  margin-top: 3rem;
+}
+#celulasImage {
+    width: 40rem;
+    margin-left: 12%;
+    margin-top: 0;
+    margin-bottom: 12px;
 }
